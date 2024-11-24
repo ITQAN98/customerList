@@ -14,7 +14,7 @@ const displayData = async (searchKeyword) => {
 
 const renderTable = (customerList) => {
     const tableBody = document.getElementById('customerListBody');
-    tableBody.innerHTML = ''; // تفريغ محتوى الجدول
+    tableBody.innerHTML = ''; 
 
     const rows = customerList.map(customer => {
         return `
