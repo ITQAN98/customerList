@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px; /* المسافة بين العناصر */
+    gap: 10px; 
     margin-bottom: 20px;
 }
 
